@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BuyACar</string>
+    <string name="good">GOOD</string>
+    <string name="when_you_buy_a_car">When you buy a car.</string>
+    <string name="fast">FAST</string>
+    <string name="cheap">CHEAP</string>
+</resources>
