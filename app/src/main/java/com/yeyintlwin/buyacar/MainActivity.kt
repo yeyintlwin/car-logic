@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
     override fun onCheckedChanged(buttonView: CompoundButton, isChecked: Boolean) {
         when (buttonView) {
             switch_good -> if (isChecked && switch_cheap.isChecked && switch_fast.isChecked)
+
                 switch_fast.isChecked = false
             switch_cheap -> if (isChecked && switch_good.isChecked && switch_fast.isChecked)
                 switch_good.isChecked = false
